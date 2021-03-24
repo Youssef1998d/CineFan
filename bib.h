@@ -76,4 +76,15 @@ typedef struct crit{
     struct crit *prec;
 }Lcrit;
 
+typedef struct date{
+    int j;
+    int m;
+    int a;
+}date;
+
+typedef struct bd{
+    FILE *f;
+    date last;
+}bd;
+
 #endif // BIB_H_INCLUDED
